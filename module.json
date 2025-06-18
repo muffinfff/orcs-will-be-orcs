@@ -1,0 +1,61 @@
+{
+  "id": "orcs-will-be-orcs",
+  "title": "Orcs Will Be Orcs",
+  "description": "A grimdark adventure module against the savage orcish horde for the Shadowdark RPG system.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "muffinmunroe"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "shadowdark",
+        "type": "system"
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "npcs-and-monsters",
+      "label": "OWO: NPCs and Monsters",
+      "path": "./packs/npcs-and-monsters.db",
+      "type": "Actor",
+      "system": "shadowdark"
+    },
+    {
+      "name": "items-and-treasure",
+      "label": "OWO: Items and Treasure",
+      "path": "./packs/items-and-treasure.db",
+      "type": "Item",
+      "system": "shadowdark"
+    },
+    {
+      "name": "adventure-journals",
+      "label": "OWO: Adventure Journals",
+      "path": "./packs/adventure-journals.db",
+      "type": "JournalEntry",
+      "system": "shadowdark"
+    },
+    {
+      "name": "adventure-scenes",
+      "label": "OWO: Adventure Scenes",
+      "path": "./packs/adventure-scenes.db",
+      "type": "Scene",
+      "system": "shadowdark"
+    },
+    {
+      "name": "rollable-tables",
+      "label": "OWO: Rollable Tables",
+      "path": "./packs/rollable-tables.db",
+      "type": "RollTable",
+      "system": "shadowdark"
+    }
+  ]
+}
